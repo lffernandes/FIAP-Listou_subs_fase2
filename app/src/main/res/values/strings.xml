@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Listou</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="calendario">Calendário</string>
+    <string name="trocarSenha">Trocar Senha</string>
+    <string name="sair">Sair</string>
+    <string name="minha_lista">Minha Lista</string>
+    <string name="nome_da_lista">Nome da Lista</string>
+    <string name="data_da_compra">Data da Compra</string>
+    <string name="orcamento">Orçamento</string>
+    <string name="periodo">Período</string>
+    <string name="salvar">SALVAR</string>
+    <string name="saudacao_nome">Olá, Grupo A.</string>
+    <string name="recorrencia_label">Recorrência</string>
+    <string name="is_recorrente_label">Recorrente</string>
+    <string name="data_compra_label">Data Compra</string>
+    <string name="descricao_label">Descrição</string>
+    <string name="minhas_listas_label">Minhas Listas</string>
+    <string name="nova_lista_label">Nova Lista</string>
+    <string name="repetir_label">Repetir</string>
+    <string name="periodo_label">Período</string>
+    <string name="nome_label">Nome</string>
+    <string name="quantidade_label">Quantidade</string>
+    <string name="detalhes_label">Detalhes</string>
+    <string name="novo_item_label">Novo Item</string>
+    <string name="nome_do_item_label">Nome do Item</string>
+
+    <string-array name="periodo_array">
+        <item>Semanal</item>
+        <item>Mensal</item>
+        <item>Bimestral</item>
+        <item>Trimestral</item>
+        <item>Semestral</item>
+        <item>Anual</item>
+    </string-array>
+</resources>

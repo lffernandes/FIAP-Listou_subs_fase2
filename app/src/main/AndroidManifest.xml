@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCEPT_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:parentActivityName=".MinhasListas"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.Mba3scjo2021GrupoAListou">
+
+        <activity
+            android:name=".NewEditListaActivity"
+            android:exported="true"
+            android:parentActivityName=".MinhasListas"
+            android:theme="@style/Theme.Mba3scjo2021GrupoAListou_actionBar"/>
+
+        <activity
+            android:name=".NewItemActivity"
+            android:exported="true"
+            android:parentActivityName=".ListaActivity"
+            android:label="Lista"
+            android:theme="@style/Theme.Mba3scjo2021GrupoAListou_actionBar"/>
+
+         <activity
+            android:name=".ListaActivity"
+            android:exported="false"
+            android:parentActivityName=".MinhasListas"
+            android:theme="@style/Theme.Mba3scjo2021GrupoAListou_actionBar" />
+        <activity
+            android:name=".MinhasListas"
+            android:exported="false"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.Mba3scjo2021GrupoAListou_actionBar" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+
+        <activity android:name=".Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

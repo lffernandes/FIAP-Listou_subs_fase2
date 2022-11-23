@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/minhasListas2">
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="br.com.fiap.listou_subs_fase2.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/minhasListas2"
+        android:name="br.com.fiap.listou_subs_fase2.MinhasListas"
+        android:label="MinhasListas" />
+</navigation>

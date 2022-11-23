@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="isListaCompra"
+            type="br.com.fiap.listou_subs_fase2.models.ListaCompra" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="30dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="0dp"
+                android:visibility="invisible" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/descricao_label" />
+
+                <TextView
+                    android:id="@+id/descricao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="end"
+                    android:paddingEnd="10dp"
+                    android:text="@{isListaCompra.descricao}"
+                    android:textColor="@color/textoListas" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/data_compra_label" />
+
+                <TextView
+                    android:id="@+id/dtCompra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="end"
+                    android:paddingEnd="10dp"
+                    android:text="@{isListaCompra.dtCompra}"
+                    android:textColor="@color/textoListas" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/is_recorrente_label" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switchRecorrente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/recorrencia_label" />
+
+                <TextView
+                    android:id="@+id/recorrencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="end"
+                    android:paddingEnd="10dp"
+                    android:text="@{isListaCompra.recorrencia}"
+                    android:textColor="@color/textoListas" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="0"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/orcamento" />
+
+                <TextView
+                    android:id="@+id/orcamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="end"
+                    android:paddingEnd="10dp"
+                    android:text="@{isListaCompra.orcamento}"
+                    android:textColor="@color/textoListas" />
+
+                <TextView
+                    android:id="@+id/total_lista"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="0dp"
+                    android:visibility="invisible" />
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/detalhesButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Detalhes"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </GridLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -16,8 +16,8 @@
 - [x] Tela Home
 - [x] Tela Minhas listas
      - [x] Tela nova listaa
-      - [x] Tela Detalhe Listas
-      - [x] Tela Novo Item
+     - [x] Tela Detalhe Listas
+     - [x] Tela Novo Item
 
 ---
 

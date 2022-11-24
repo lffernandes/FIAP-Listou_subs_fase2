@@ -23,9 +23,9 @@
 
 ## ⚙️ Funcionalidades
 
-- [x] Visualização das listas de compras
-  - [x] visualização do detalhe da lista
-     [x] Adicionar item a lista
+- [x] Visualizar as listas de compras
+  - [x] visualizar o detalhe da lista
+   - [x] Adicionar itens a lista
   - [x] Criar nova lista
 ---
 

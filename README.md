@@ -15,18 +15,18 @@
 - [x] Tela Login
 - [x] Tela Home
 - [x] Tela Minhas listas
-  - [x] Tela nova listaa
-    - [x] Tela Detalhe Listas
-      - [x] Tela Novo Item
+     - [x] Tela nova listaa
+           - [x] Tela Detalhe Listas
+           - [x] Tela Novo Item
 
 ---
 
 ## ⚙️ Funcionalidades
 
 - [x] Visualizar as listas de compras
-  - [x] visualizar o detalhe da lista
-   - [x] Adicionar itens a lista
-  - [x] Criar nova lista
+     - [x] visualizar o detalhe da lista
+           - [x] Adicionar itens a lista
+           - [x] Criar nova lista
 ---
 
 

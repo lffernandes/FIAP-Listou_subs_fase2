@@ -6,7 +6,7 @@
 
 ## 💻 Sobre o projeto
 
-🍀 A segunda etapa consiste emÉ esperada a implementação de pelo menos 3 (três) telas incluindo a parte de login e o consumo de algum serviço externo que gere estímulos ou provoque alteração dos dados exibidos na interface.
+🍀 A segunda etapa consiste na implementação de pelo menos 3 (três) telas incluindo a parte de login e o consumo de algum serviço externo que gere estímulos ou provoque alteração dos dados exibidos na interface.
 
  
 ## ⚙️ APP

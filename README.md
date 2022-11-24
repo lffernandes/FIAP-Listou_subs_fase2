@@ -25,8 +25,8 @@
 
 - [x] Visualizar as listas de compras
      - [x] visualizar o detalhe da lista
-         - [x] Adicionar itens a lista
-         - [x] Criar nova lista
+     - [x] Adicionar itens a lista
+     - [x] Criar nova lista
 ---
 
 

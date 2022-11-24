@@ -38,6 +38,11 @@ Execute o projeto no seu editor preferido. (Sugiro executar no Android Studio:
 Assim que executar o projeto é possivel efetuar login com o usuário: fiap e senha:fase2
 
 
+## Observações
+
+Esse projeto passou por uma refatoração que não foi concluída mas segue link do repositório:
+https://github.com/lffernandes/APP-Listou_2.0
+
 ## 🦸 Autor
 
 
